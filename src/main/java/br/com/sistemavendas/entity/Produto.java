@@ -13,7 +13,7 @@ public class Produto {
 
     public Double preco;
 
-    @ManyToMany
+    @ManyToOne
     @JoinColumn(name = "colaborador_id")
     public Colaborador colaborador;
 
